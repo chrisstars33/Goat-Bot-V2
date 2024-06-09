@@ -12,13 +12,15 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "✰𝐶ℎ𝑟𝑖𝑠 𝑠𝑡𝑎𝑟𝑠✰",
+	"prefix": ".",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [
+	  "100094118835962"
+	],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
@@ -37,18 +39,18 @@
 		"autoRefreshThreadInfoFirstTime": true,
 		"notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
 	},
-	"timeZone": "Asia/Ho_Chi_Minh",
+	"timeZone": "African/Kinshasa",
 	"credentials": {
 		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
+			"email": "starschristophe33@gmail.com",
+			"clientId": "918367588364-imbtktp60jeflk8u14qqbdvjgvps6qaj.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04aGP8unU8M99CgYIARAAGAQSNwF-L9IreHzF4siI8IpGb1Rjp7YRF1FX0cXa3OMEGKQD8gr3daWt552K9pPXT7rSGynceC2iyqM",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
+			"siteKey": "6LdLnPQpAAAAADKd1J4Oc9_tCazSBqRLjhItzAb4",
+			"secretKey": "6LdLnPQpAAAAAGagD4vqmziGs7cEQvtpyhp_hg4C"
 		}
 	},
 	"dashBoard": {
@@ -142,4 +144,4 @@
 		"autoReconnect": false,
 		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
 	}
-}
+	}
